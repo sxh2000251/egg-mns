@@ -1,6 +1,6 @@
 {
-  "name": "egg-mns",
-  "version": "0.0.13",
+  "name": "egg-mns-hs",
+  "version": "0.0.16",
   "description": "aliyun mns plugin for egg",
   "eggPlugin": {
     "name": "mns"
@@ -11,7 +11,7 @@
     "egg-plugin"
   ],
   "dependencies": {
-    "ali-mns": "^2.6.4",
+    "ali-mns-hs": "^2.6.9",
     "path": "^0.12.7"
   },
   "devDependencies": {

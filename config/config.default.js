@@ -1,6 +1,6 @@
 'use strict';
 
-const  AliMNS = require("ali-mns");
+const  AliMNS = require("ali-mns-hs");
 
 module.exports = appInfo => {
   const config = {};
@@ -17,6 +17,7 @@ module.exports = appInfo => {
     GA: true, // enable google analytics data collection
     https: false, // using http or https protocol, default is false for using http protocol.
     app: true,
+    b64Transform: true, // base64 transform while getting and sending messages
   };
 
   return config;
